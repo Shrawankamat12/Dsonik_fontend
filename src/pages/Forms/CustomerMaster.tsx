@@ -379,7 +379,7 @@ const [pageSize, setPageSize] = useState(5); // kyunki pageSize = 5 hai
                 }}
               >
                 {[...states]
-                  .sort((a, b) => a.name.localeCompare(b.name)) // 👈 ORDER BY name ASC
+                  .sort((a, b) => a.name.localeCompare(b.name)) // ORDER BY name ASC
                   .map((s) => (
                     <Option key={s.id} value={s.id} label={s.name}>
                       {s.name}
