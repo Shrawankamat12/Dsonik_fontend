@@ -105,7 +105,7 @@
 //   ];
 
 //   return (
-//     <div className="p-6">
+//    <div className="p-6 mt-16">
 //       <div className="flex justify-between mb-4">
 //         <h2 className="text-xl font-semibold">Product Issue</h2>
 //         <Button
@@ -289,7 +289,7 @@
 //   ];
 
 //   return (
-//     <div className="p-6">
+//    <div className="p-6 mt-16">
 //       <Button type="primary" icon={<PlusOutlined />} onClick={() => setOpen(true)}>
 //         Add Issue
 //       </Button>
@@ -2498,7 +2498,7 @@ const ProductIssue = () => {
 
   /* ================= RENDER ================= */
   return (
-    <div className="p-6 bg-white">
+    <div className="p-6 bg-white" style={{ marginTop: 60 }}>
       {!showForm && (
         <>
           <div className="flex justify-between mb-4">

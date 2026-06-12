@@ -19,7 +19,7 @@ export default function DefaultInputs() {
 
   return (
     <ComponentCard title="Default Inputs">
-      <div className="space-y-6">
+      <div className="space-y-0">
         <div>
           <Label htmlFor="input">Input</Label>
           <Input type="text" id="input" />

@@ -313,7 +313,12 @@ export default function ProductStock() {
   ];
 
   return (
-    <div style={{ padding: 20 }}>
+   <div
+  style={{
+    padding: 20,
+    marginTop: 60,
+  }}
+>
       <h2 style={{ fontSize: "22px", fontWeight: "600", marginBottom: "20px" }}>
         Product stock
       </h2>

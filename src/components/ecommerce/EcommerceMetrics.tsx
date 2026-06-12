@@ -311,7 +311,7 @@ setDealNo(quoteRes.data.length - finalisedCount);
         gap: "20px",
         width: "100%",
         justifyContent: "center",
-        padding: 20,
+        padding: "80px 20px 20px 20px",
       }}
     >
       {cards.map((item, index) => (

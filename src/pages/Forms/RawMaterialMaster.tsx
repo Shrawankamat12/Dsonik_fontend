@@ -157,7 +157,7 @@ const RawMaterialMaster = () => {
   ];
 
   return (
-    <div className="p-6">
+   <div className="p-6 mt-16">
       {/* HEADER */}
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold">Raw Material Master</h2>

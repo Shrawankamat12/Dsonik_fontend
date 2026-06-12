@@ -142,7 +142,7 @@
 //   ];
 
 //   return (
-//     <div className="p-6">
+//    <div className="p-6 mt-16">
 //       {/* HEADER */}
 //       <div className="flex justify-between mb-4">
 //         <h2 className="text-xl font-semibold">Raw Material Issue</h2>
@@ -1994,7 +1994,7 @@ const RmIssueMaster = () => {
 
   // ================= RENDER =================
   return (
-    <div className="p-6 bg-white">
+     <div className="p-6 bg-white" style={{ marginTop: 60 }}>
       {!showForm && (
         <>
           <div className="flex justify-between mb-4">

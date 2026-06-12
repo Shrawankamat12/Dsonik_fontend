@@ -131,7 +131,7 @@ const ReferenceMaster: React.FC = () => {
   ];
 
   return (
-    <div className="p-6">
+   <div className="p-6 mt-16">
       <div className="flex justify-between mb-4">
         <h2 className="text-2xl font-semibold">Reference Master</h2>
         <Button

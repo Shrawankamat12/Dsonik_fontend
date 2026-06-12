@@ -267,7 +267,7 @@ const CompanyMaster: React.FC = () => {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-6 mt-16">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold">Company Master</h2>
         <Button

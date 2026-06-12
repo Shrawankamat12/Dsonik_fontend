@@ -162,7 +162,7 @@ const RmIssueItemMaster = () => {
   ];
 
   return (
-    <div className="p-6">
+   <div className="p-6 mt-16">
       <div className="flex justify-between mb-4">
         <h2 className="text-xl font-semibold">RM Issue Item Master</h2>
         <Button type="primary" icon={<PlusOutlined />} onClick={() => setOpen(true)}>

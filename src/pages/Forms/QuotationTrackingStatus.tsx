@@ -372,7 +372,7 @@
 //   );
 
 //   return (
-//     <div className="p-6">
+//    <div className="p-6 mt-16">
 //       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-4 gap-3">
 //         <h2 className="text-2xl font-semibold">Quotation Status Tracking</h2>
 //         <Input
@@ -1429,7 +1429,7 @@ const handleFollowupSave = async (values: any) => {
 );
 
   return (
-    <div className="p-6">
+   <div className="p-6 mt-16">
       <div className="flex justify-between items-center mb-4">
   <h2 className="text-2xl font-semibold">Quotation Status Tracking</h2>
 

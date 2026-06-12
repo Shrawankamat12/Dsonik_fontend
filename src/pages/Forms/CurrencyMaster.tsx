@@ -174,7 +174,12 @@ const CurrencyMaster: React.FC = () => {
   ];
 
   return (
-    <div style={{ padding: 20 }}>
+  <div
+  style={{
+    padding: 20,
+    marginTop: 80,
+  }}
+>
       {/* Header */}
       <div
         style={{

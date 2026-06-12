@@ -60,7 +60,7 @@ export default function SignInForm() {
         <form onSubmit={handleLogin}>
           <h1 className="mb-6 text-xl font-semibold">Sign In</h1>
 
-          <div className="space-y-6">
+          <div className="space-y-0">
             <div>
               <Label>Email <span className="text-red-500">*</span></Label>
               <Input

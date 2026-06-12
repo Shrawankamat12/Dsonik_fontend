@@ -145,7 +145,7 @@
 // ];
 
 //   return (
-//     <div className="p-6">
+//    <div className="p-6 mt-16">
 //       {/* Header */}
 //       <div className="flex justify-between items-center mb-4">
 //         <h2 className="text-2xl font-semibold">Product Stock Entry</h2>
@@ -375,7 +375,7 @@ const ProductStockEntryMaster: React.FC = () => {
   ];
 
   return (
-    <div className="p-6">
+   <div className="p-6 mt-16">
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-semibold">Product Stock Entry</h2>
         <Button

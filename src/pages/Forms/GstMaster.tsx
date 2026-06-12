@@ -710,7 +710,12 @@ const GSTMaster: React.FC = () => {
   ];
 
   return (
-    <div style={{ padding: 20 }}>
+    <div
+  style={{
+    padding: 20,
+    marginTop: 80,
+  }}
+>
       {/* HEADER */}
       <div style={{ display: "flex", justifyContent: "space-between" }}>
         <h2>GST Master</h2>

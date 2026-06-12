@@ -164,7 +164,12 @@ const ModuleMenuMaster: React.FC = () => {
   ];
 
   return (
-    <div style={{ padding: 20 }}>
+    <div
+  style={{
+    padding: 20,
+    marginTop: 80,
+  }}
+>
       {/* Header */}
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>
         <h2 style={{ margin: 0 }}>Module Master</h2>
